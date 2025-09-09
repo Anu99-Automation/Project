@@ -1,0 +1,12 @@
+
+<suite name="Flipkart E2E">
+    <test name="Flipkart">
+        <classes>
+            <class name="testcase.Login" />
+            <class name="testcase.Search" />
+            <class name="testcase.Cart" />
+            <class name="testcase..Order" />
+            <class name="testcase..Logout" />
+        </classes>
+    </test>
+</suite>

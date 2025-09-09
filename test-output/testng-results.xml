@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-09T06:51:17 IST" name="Default suite" finished-at="2025-09-09T06:52:04 IST" duration-ms="46766">
+    <groups>
+    </groups>
+    <test started-at="2025-09-09T06:51:17 IST" name="Default test" finished-at="2025-09-09T06:52:04 IST" duration-ms="46766">
+      <class name="testcase.Order">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.Order@e3b3b2f]" started-at="2025-09-09T06:51:17 IST" name="setUp" finished-at="2025-09-09T06:51:24 IST" duration-ms="6661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrderTest()[pri:0, instance:testcase.Order@e3b3b2f]" started-at="2025-09-09T06:52:01 IST" name="placeOrderTest" finished-at="2025-09-09T06:52:03 IST" depends-on-methods="testcase.Login.validLoginTest" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Order@e3b3b2f]" started-at="2025-09-09T06:52:03 IST" name="quit" finished-at="2025-09-09T06:52:04 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcase.Order -->
+      <class name="testcase.Login">
+        <test-method signature="validLoginTest()[pri:0, instance:testcase.Login@5038d0b5]" started-at="2025-09-09T06:51:24 IST" name="validLoginTest" finished-at="2025-09-09T06:52:01 IST" duration-ms="36891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:testcase.Login@5038d0b5]" started-at="2025-09-09T06:52:01 IST" name="afterEachTest" finished-at="2025-09-09T06:52:01 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=Login.validLoginTest()[pri:0, instance:testcase.Login@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- testcase.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
